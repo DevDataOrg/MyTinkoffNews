@@ -11,6 +11,7 @@
 		70A7E974274FEEDE00A6D045 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7E973274FEEDE00A6D045 /* ContentView.swift */; };
 		70A7E976274FEEE000A6D045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A7E975274FEEE000A6D045 /* Assets.xcassets */; };
 		70A7E979274FEEE000A6D045 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A7E978274FEEE000A6D045 /* Preview Assets.xcassets */; };
+		70A7E981274FEF8A00A6D045 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7E980274FEF8A00A6D045 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		70A7E973274FEEDE00A6D045 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70A7E975274FEEE000A6D045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A7E978274FEEE000A6D045 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		70A7E97F274FEF2800A6D045 /* Article.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Article.md; sourceTree = "<group>"; };
+		70A7E980274FEF8A00A6D045 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +56,8 @@
 			children = (
 				70A7E971274FEEDE00A6D045 /* MyTinkoffNewsApp.swift */,
 				70A7E973274FEEDE00A6D045 /* ContentView.swift */,
+				70A7E97F274FEF2800A6D045 /* Article.md */,
+				70A7E980274FEF8A00A6D045 /* Model.swift */,
 				70A7E975274FEEE000A6D045 /* Assets.xcassets */,
 				70A7E977274FEEE000A6D045 /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A7E981274FEF8A00A6D045 /* Model.swift in Sources */,
 				70A7E974274FEEDE00A6D045 /* ContentView.swift in Sources */,
 				70A7E972274FEEDE00A6D045 /* MyTinkoffNewsApp.swift in Sources */,
 			);
